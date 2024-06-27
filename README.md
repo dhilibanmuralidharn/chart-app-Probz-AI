@@ -9,9 +9,9 @@
   Styling: Utilizes Tailwind CSS for styling
 
 # Installation
-# Install dependencies: npm install
-# Install Tailwind CSS: npm install -D tailwindcss, npx tailwindcss init
-# Configure Tailwind CSS: Add the following content to your tailwind.config.js file:
+  Install dependencies: npm install
+  Install Tailwind CSS: npm install -D tailwindcss, npx tailwindcss init
+  Configure Tailwind CSS: Add the following content to your tailwind.config.js file:
     module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
@@ -29,7 +29,8 @@
     @tailwind components;
     @tailwind utilities;
     
-# Prepare the data file: Ensure you have a data.json file in the public directory.  
+# Prepare the data file 
+Ensure you have a data.json file in the public directory.  
 
 # Getting Started with Create React App
 
@@ -50,6 +51,17 @@ You may also see any lint errors in the console.
 # Usage
   Select Timeframe: Use the dropdown to select the timeframe you want to view (Daily, Weekly, Monthly).
   Export Chart: lick the "Export Chart" button to download the chart as a PNG image.
+  
+# Deployment
+  Install the GitHub Pages package:
+    npm install gh-pages --save-dev
+  Add the following scripts to your package.json file:
+    "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+  Deploy the app: npm run deploy
+  
 
 # Project Structure
   `src/`: Contains the main source code for the React application
@@ -59,7 +71,7 @@ You may also see any lint errors in the console.
   public/: Contains static files, including the data.json file.
 
 # Dependencies
-  React, Recharts, date-fns, html2canvas, Tailwind CSS
+  React, Recharts, date-fns, html2canvas, Tailwind CSS, Moment.js
 
 ### `npm test`
 
