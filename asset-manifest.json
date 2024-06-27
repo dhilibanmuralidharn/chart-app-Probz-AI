@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chart-app-Probz-AI/static/css/main.1250ef52.css",
+    "main.js": "/chart-app-Probz-AI/static/js/main.35eb1a2f.js",
+    "static/js/453.f4a88a2c.chunk.js": "/chart-app-Probz-AI/static/js/453.f4a88a2c.chunk.js",
+    "index.html": "/chart-app-Probz-AI/index.html",
+    "main.1250ef52.css.map": "/chart-app-Probz-AI/static/css/main.1250ef52.css.map",
+    "main.35eb1a2f.js.map": "/chart-app-Probz-AI/static/js/main.35eb1a2f.js.map",
+    "453.f4a88a2c.chunk.js.map": "/chart-app-Probz-AI/static/js/453.f4a88a2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1250ef52.css",
+    "static/js/main.35eb1a2f.js"
+  ]
+}
